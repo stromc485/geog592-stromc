@@ -4,8 +4,8 @@ This repository contains exercises and assignments for GEOG 592.
 
 ## Student information
 
-Name:
+Name: Charlotte Strom
 
-ONYEN:
+ONYEN: stromc
 
-GitHub username:
+GitHub username: stromc485
