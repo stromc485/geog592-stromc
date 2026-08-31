@@ -1,0 +1,211 @@
+# Three Original Lists:
+locations = ["A", "B", "C", "D"]
+
+eastings = [
+    680100,
+    680450,
+    681000,
+    680300
+]
+
+northings = [
+    3975200,
+    3975450,
+    3976100,
+    3975650
+]
+
+# Part 1:
+n = len(locations)
+print(locations[0])
+print(locations[n-1])
+print(eastings[0], northings[0])
+print(eastings[2], northings[2])
+
+## Output: 
+A
+D
+680100 3975200
+681000 3976100
+
+# Part 2:
+location = "C"
+for index in range(len(locations)):
+    if locations[index] == location:
+        print(index)
+        print(locations[index])
+        print(eastings[index])
+        print(northings[index])
+## Output:
+2
+C
+681000
+3976100
+
+
+# Part 3:
+point_A = (eastings[0], northings[0])
+point_B = (eastings[1], northings[1])
+point_C = (eastings[2], northings[2])
+point_D = (eastings[3], northings[3])
+print(point_A)
+print(point_B)
+print(point_C)
+print(point_D)
+## Output:
+(680100, 3975200)
+(680450, 3975450)
+(681000, 3976100)
+(680300, 3975650)
+
+# Part 4:
+def calculate_distance(point1, point2):
+    distance = ((point2[0] - point1[0])**2 + (point2[1] - point1[1])**2)**0.5
+    return distance
+
+distance = calculate_distance(point_A, point_B)
+print(distance)
+## Output:
+430.11626335213134
+
+
+# Part 5:
+point_A = (680100, 3975200)
+point_B = (680450, 3975450)
+
+def validate_point(name, point):
+    errors = []
+
+    if not isinstance(point, list):
+            errors.append(f"{name} is not a list.")
+    elif not isinstance(point, list):
+            errors.append(f"{name} is not a list.")
+    elif len(point) != 2:
+            errors.append(f"{name} must contain exactly 2 values.")
+    else:
+        for i, value in enumerate(point):
+            if not isinstance(value, (float, int)):
+                errors.append(f"{name} is not numeric: {value!r}")
+        
+    return errors
+
+def calculate_distance(point1, point2):
+    distance = ((point2[0] - point1[0])**2 + (point2[1] - point1[1])**2)**0.5
+    return distance
+
+distance = calculate_distance(point_A, point_B)
+print(distance)
+## Output: 
+430.11626335213134
+
+# Part 6:
+point_A = ["680450", 3975450]
+point_B =  [680450]
+point_C = 680450
+
+def validate_point(name, point):
+    errors = []
+
+    if not isinstance(point, list):
+            errors.append(f"{name} is not a list.")
+    elif not isinstance(point, list):
+            errors.append(f"{name} is not a list.")
+    elif len(point) != 2:
+            errors.append(f"{name} must contain exactly 2 values.")
+    else:
+        for i, value in enumerate(point):
+            if not isinstance(value, (float, int)):
+                errors.append(f"{name} is not numeric: {value!r}")
+        
+    return errors
+
+validate_point("point_A", ["680450", 3975450]), validate_point("point_B", [680450]), validate_point("point_C", 680450)
+## Output:
+(["point_A is not numeric: '680450'"],
+ ['point_B must contain exactly 2 values.'],
+ ['point_C is not a list.'])
+
+# Part 7:
+location = point_A
+for index in range(len(locations)):
+    if locations[index] == location:
+        print()
+        print(index)
+        print(locations[index])
+        print(eastings[index])
+        print(northings[index])
+
+location = point_B
+for index in range(len(locations)):
+    if locations[index] == location:
+        print()
+        print(index)
+        print(locations[index])
+        print(eastings[index])
+        print(northings[index])
+
+location = point_C
+for index in range(len(locations)):
+    if locations[index] == location:
+        print()
+        print(index)
+        print(locations[index])
+        print(eastings[index])
+        print(northings[index])
+
+location = point_D
+for index in range(len(locations)):
+    if locations[index] == location:
+        print()
+        print(index)
+        print(locations[index])
+        print(eastings[index])
+        print(northings[index])
+
+def calculate_distance(point1, point2):
+    distance = ((point2[0] - point1[0])**2 + (point2[1] - point1[1])**2)**0.5
+    return distance
+
+distance = calculate_distance(point_A, point_B)
+print(f"Distance from A to B: {distance}")
+
+def calculate_distance(point1, point3):
+    distance = ((point3[0] - point1[0])**2 + (point3[1] - point1[1])**2)**0.5
+    return distance
+
+distance = calculate_distance(point_A, point_C)
+print(f"Distance from A to C: {distance}")
+
+def calculate_distance(point1, point4):
+    distance = ((point4[0] - point1[0])**2 + (point4[1] - point1[1])**2)**0.5
+    return distance
+
+distance = calculate_distance(point_A, point_D)
+print(f"Distance from A to D: {distance}")
+## Output:
+Distance from A to B: 430.11626335213134
+Distance from A to C: 1272.7922061357856
+Distance from A to D: 492.44289008980525
+
+# Part 8: 
+point_A = [eastings[0], northings[0]]
+
+for i in range(1, len(locations)):  # Start at 1 to skip A
+    other_point = [eastings[i], northings[i]]
+    distance = calculate_distance(point_A, other_point)
+    print(f"Distance from A to {locations[i]}: {distance}")
+## Output:
+Distance from A to B: 430.11626335213134
+Distance from A to C: 1272.7922061357856
+Distance from A to D: 492.44289008980525
+
+# Reflection
+This took me a long time to complete. I was trying to go through it and really learn how to do it. I finally finshed it after a few hours,
+and I feel as though I have a better understanding of Python and how lists, indexes, loops, conditions, and functions work together.
+
+# AI Statement
+I used the suggestions given by Google Gemini when searching how to use indexes, loops, and conditions, specifically. 
+However, I did not use AI explicitly, only the suggestions and the information from various coding websites (which is not AI). 
+
+
+
