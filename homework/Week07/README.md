@@ -1,0 +1,3 @@
+The data folder was created for part one of the GeoPandas geoprocessing techniques assignment.Three data layers were uploaded to the data folder, including county polygon data (from NC OneMap), river basin line data (from NC OneMap), and CAFOs point data (from NCDEQ). 
+
+The data is intended to examine the spatial relationship between hog concentrated feeding operations (CAFOs) and their location near river basins in NC, which has implications on how waste enters waterways and affects marine ecosystems. 
