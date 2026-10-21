@@ -1,0 +1,42 @@
+"
+          Taxonomic Group
+        ","
+          Scientific Name
+        ","
+          Common Name
+        ","
+          NC Status
+        ","
+          Federal Status
+        ","
+          State Rank
+        ","
+          Global Rank
+        ","
+          County
+        ","
+          County Status
+        ","
+          Habitat Comment
+        "
+"Vascular Plant","Dionaea muscipula","Venus Flytrap","T","none","S2","G2G3","Pender","Current","savannas, seepage bogs, pocosin edges"
+"Vascular Plant","Dionaea muscipula","Venus Flytrap","T","none","S2","G2G3","New Hanover","Current","savannas, seepage bogs, pocosin edges"
+"Vascular Plant","Dionaea muscipula","Venus Flytrap","T","none","S2","G2G3","Moore","Historical","savannas, seepage bogs, pocosin edges"
+"Vascular Plant","Dionaea muscipula","Venus Flytrap","T","none","S2","G2G3","Beaufort","Current","savannas, seepage bogs, pocosin edges"
+"Vascular Plant","Dionaea muscipula","Venus Flytrap","T","none","S2","G2G3","Lenoir","Historical","savannas, seepage bogs, pocosin edges"
+"Vascular Plant","Dionaea muscipula","Venus Flytrap","T","none","S2","G2G3","Robeson","Historical","savannas, seepage bogs, pocosin edges"
+"Vascular Plant","Dionaea muscipula","Venus Flytrap","T","none","S2","G2G3","Hoke","Current","savannas, seepage bogs, pocosin edges"
+"Vascular Plant","Dionaea muscipula","Venus Flytrap","T","none","S2","G2G3","Brunswick","Current","savannas, seepage bogs, pocosin edges"
+"Vascular Plant","Dionaea muscipula","Venus Flytrap","T","none","S2","G2G3","Columbus","Current","savannas, seepage bogs, pocosin edges"
+"Vascular Plant","Dionaea muscipula","Venus Flytrap","T","none","S2","G2G3","Bladen","Current","savannas, seepage bogs, pocosin edges"
+"COUNTY","Duplin"
+"TAXONOMIC_GROUP","Vascular Plant"
+"SCIENTIFIC_NAME","Dionaea muscipula"
+"COMMON_NAME","Venus Flytrap"
+"STATE_STATUS","T"
+"FEDERAL_STATUS",""
+"INTRODUCED","N"
+"STATE_RANK","S2"
+"G_RANK","G2G3"
+"HABITAT_COMMENT","savannas, seepage bogs, pocosin edges"
+"COUNTY_STATUS","Historical"
