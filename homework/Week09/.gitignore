@@ -17,3 +17,7 @@ project/data/
 # Ignore OS metadata
 .DS_Store
 Thumbs.db
+# Python environment and system 
+.venv/
+__pychache__/
+.DS_Store
