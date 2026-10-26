@@ -1,0 +1,19 @@
+# Ignore heavy data folders
+data/
+project/data/
+
+# Ignore common large spatial data formats
+*.shp
+*.dbf
+*.shx
+*.prj
+*.tif
+*.tiff
+*.geojson
+*.csv
+*.xlsx
+*.zip
+
+# Ignore OS metadata
+.DS_Store
+Thumbs.db
